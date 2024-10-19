@@ -1,0 +1,16 @@
+Full Stack =>
+1. Frontend 
+2. Backend
+
+Frontend => HTML, CSS, JAVASCRIPT, BOOTSTRAP, REACT js, TAILWIND CSS 
+Backend => Node.js, Express js
+Database => Mongo DB,my Sql  
+
+
+tags, atribute, element=>
+
+ <h1 >HEllo Word</h1>
+ tags=> <h> => open tags
+    < h/> => close tags
+
+     <h1>HEllo Word</h1> => element
