@@ -14,3 +14,9 @@ tags, atribute, element=>
     < h/> => close tags
 
      <h1>HEllo Word</h1> => element
+
+
+     table =>
+     th=> table heading 
+     tr=> table row
+     td=> table data

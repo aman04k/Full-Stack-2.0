@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+ 
+    <h1>rowspan table</h1>
+    <table border="1">
+       
+        <tr>
+            <th>Name</th>
+            <th>Roll</th>
+            <th>Class</th>
+            <th>Phone</th>
+        </tr>
+
+        <tr>
+            <td >John</td>
+            <td>123</td>
+            <td>12th</td>
+            <td>1234456878</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Divya</td>
+            <td>256</td>
+            <td>10th</td>
+            <td>1234456878</td>
+        </tr>
+        <tr>
+            <!-- <td>Anjali</td> -->
+            <td>451</td>
+            <td>11th</td>
+            <td>5656056878</td>
+        </tr>
+
+        <tr>
+            <!-- <td>Kajal</td> -->
+            <td>526</td>
+            <td>10th</td>
+            <td>4524878568</td>
+        </tr>
+
+    </table> <br><br>
+
+  <h1>columnspan table</h1>
+    <table border="1">
+
+        <tr>    
+            <th>Name</th>
+            <th>Roll</th>
+            <th>Class</th>
+            <th>Phone</th>
+        </tr>
+
+        <tr>
+            <td >John</td>  
+            <td>123</td>
+            <td>12th</td>
+            <td>1234456878</td>
+        </tr>
+
+        <tr>
+            <td>Divya</td>
+            <td colspan="2">256</td>
+            <!-- <td>10th</td> -->
+            <td>1234456878</td>     
+        </tr>
+        <tr>
+            <td colspan="3">Anjali</td>
+            <!-- <td>451</td> -->
+            <!-- <td>11th</td> -->
+            <td>5656056878</td>
+        </tr>
+    </table>
+</body>
+</html>
