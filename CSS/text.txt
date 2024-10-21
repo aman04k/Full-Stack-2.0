@@ -1,0 +1,12 @@
+Box model => 
+1. Padding => space b/t two elements       
+2. Border =>
+3. Margin => space b/t body and element or Content
+4. Content 
+
+Position =>
+1. Static 
+2. Relative 
+3. Absolute
+4. fixed
+5. Sticky    
