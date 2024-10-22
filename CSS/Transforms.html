@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforms</title>
+    <!-- <style>
+
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: auto;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           transition: 3s linear 0.5s;
+           
+        }
+        p{
+            font-size: 25px;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            background-color: cadetblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box:hover{
+            /* transform: rotate(45deg);   rotate/ */
+               /* transform: scale(.5); zooming in and out */
+               /* transform: skew(45deg); */
+               transform: translatey(200px););
+        }
+    </style> -->
+
+  <style>
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-color: cadetblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        margin: auto;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 3s;
+        background-image: url("https://picsum.photos/200");
+        border-radius: 20%;
+    }
+    p{
+        font-size: 25px;
+    }
+    .box:hover{
+        /* transform: rotate(360deg); */
+        /* transform: scale(0.5); */
+        /* transform: scaleX(0.5); */
+        /* transform: skew(45deg); */
+        /* transform: translateX(-200px); */
+        /* transform: translateY(-200px); */
+        transform: translate(200px, 200px);
+    }
+  </style>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="box">
+            <p>this is a box</p>
+        </div>
+    </div>
+    
+</body>
+</html>
