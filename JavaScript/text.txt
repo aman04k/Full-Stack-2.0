@@ -1,0 +1,28 @@
+Datatype JavaScript =>
+1. Number => 1,2,3,4
+2. String => "Jaipur"
+3. Boolean => true, false
+4. Undefined => a variable is not defined
+5. Null => var a = null
+6. Symbol  => var a = Symbol("a")
+
+
+<!-- let , const and Var  -->
+     let => block function scope  
+     const => block function scope , do not reassign
+     var => function scope , store in global scope 
+    
+   Type of a  Operators =>
+
+   1. Arithmetic Operators
+   2. Relational Operators
+   3. Logical Operators
+   4. Bitwise Operators
+   5. Assignment Operators
+   6. Comparison Operators
+
+   let score = 85
+
+   s>=90   a
+   s>=80   b
+   s>=70   c : f
