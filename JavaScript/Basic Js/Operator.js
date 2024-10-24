@@ -41,12 +41,23 @@
 // let message = (age > 18) ? "you can vote" : "you can not vote"
 // console.log(message)
 
-let score = 100
+// let score = 100
 
-let grade = (score >=90) ? 'A' :
-            (score >=80) ? 'B' :
-            (score >=70) ? 'C' : 'False'
+// let grade = (score >=90) ? 'A' :
+//             (score >=80) ? 'B' :
+//             (score >=70) ? 'C' : 'False'
 
-            console.log(grade)
+//             console.log(grade)
            
+
+// let a = 5 
+// let b = 10 using third variable
             
+let a = 5
+let b = 10
+
+a = a + b
+b = a - b
+a = a - b
+console.log(a)
+console.log(b)
