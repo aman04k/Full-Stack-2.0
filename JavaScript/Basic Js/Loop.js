@@ -48,4 +48,60 @@
 // }
 // console.log(sum)
 
-let arr = [1,2,3,4,5,6,7]
+// let arr = [1,2,3,4,5,6,7]
+// let start = 0
+// let end = arr.length-1
+// while(start<=end){
+//     let temp = arr[start]
+//     arr[start] = arr[end]
+//     arr[end] = temp
+//     start++
+//     end--
+
+// }
+// console.log(arr)
+
+// 3. do while loop
+// do{
+//     // code to be executed
+//     // condition
+// }while(condition)
+
+
+// let sum = 0
+// let i = 1
+// do{
+//    sum = sum + i
+//     console.log(sum)
+//     i++
+// }
+// while(i<=10)
+
+//Assignment
+// 1. Factorial of a number
+// 2. Prime number
+// 3. palindrome number
+// 4. Fabonacci number
+
+// 4. For in loop
+// let num = [1,2,3,4,5,6,7,8,9,10]
+// for(let i in num){
+//     console.log(i)
+// }
+
+
+// 5. For of loop
+// let num = [1,2,3,4,5,6,7,8,9,10]
+// for(let i of num){
+//     console.log(num[i])
+// }
+
+// let num = "sakshi"
+// let arr  = Array.from(num)
+
+// console.log(arr)
+
+// let num  = [1,2,3,4,5,6,7,8,9,10]
+// num.forEach((Element)=>{
+//     console.log(Element*2)
+// })
