@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="list">
+        <li>Dog</li>
+        <li>Cat</li>
+        <li>Mouse</li>
+        <li>Lion</li>
+        <li>Tiger</li>
+     </ul>
+
+    <script>
+         const newItem = document.createElement("li")
+        newItem.textContent = "Elephant"
+        list.appendChild(newItem)
+
+        const listItems = document.querySelectorAll("li")
+       
+        listItems.forEach(item => {
+            item.style.color = "red";
+            item.style.fontSize = "20px";
+            item.style.border = "2px solid black"
+            item.style.padding = "10px"
+            item.style.listStyle = "none"
+});
+
+    </script>
+</body>
+</html>

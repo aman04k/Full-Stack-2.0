@@ -26,3 +26,19 @@ Datatype JavaScript =>
    s>=90   a
    s>=80   b
    s>=70   c : f
+
+// Method of a Array => 
+// 1. push => add the value in the last index
+// 2. pop => remove the value in the last index
+// 3. shift => remove the value in the first index
+// 4. unshift => add the value in the first index
+// 5. slice => remove the value in the array
+
+
+
+Dom => Document Object Model
+1. Document.getElementById => get the value of the id
+2. Document.querySelector => get the value of the classwise
+3. Document.querySelectorAll => get the value of the tag
+4. Document.getElementsByClassName => get the value of the class
+5. Document.getElementsByTagName => get the value of the tag
