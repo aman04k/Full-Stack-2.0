@@ -1,0 +1,52 @@
+<h1>Login Form</h1>
+
+    <form class="form">
+        <label for="name">First Name:</label>
+        <input type="text" placeholder="Enter your first name" id="fname"><br><br>
+
+        <label for="name">Last Name:</label>
+        <input type="text" placeholder="Enter your last name" id="lname"><br><br>
+
+        <label for="name">Email:</label>
+        <input type="email" placeholder="Enter your email" id="email"><br><br>
+
+        <label for="name">Phone No:</label>
+        <input type="number" placeholder="Enter your contact" id="number"><br><br>
+
+        <!-- <button id="btn">Login</button><br><br> -->
+          <!-- <label for="submit">Submit</label> -->
+         <input type="submit" >
+
+        <table border="1">
+            <tr>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td>Contact No</td>
+                <td>Email</td>
+            </tr>
+        </table>
+
+
+
+    </form>
+
+
+    <script>
+        const form = document.querySelector('form');
+        const fname = document.querySelector('#fname');
+        const lname = document.querySelector('#lname');
+        const email = document.querySelector('#email');
+        const number = document.querySelector('#number');
+
+        form.addEventListener('click', (e) => {
+            e.preventDefault();
+            console.log(fname.value);
+            console.log(lname.value);
+            console.log(email.value);
+            console.log(number.value);
+        })
+
+        // console.log(form.value)
+
+
+    </script>
