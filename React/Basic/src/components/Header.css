@@ -1,0 +1,28 @@
+
+.navbar{
+    background-color:black;
+    color: white;
+ 
+  }
+  ul{
+    display:flex;
+    justify-content: space-around;
+ 
+  }
+  ul li {
+    list-style:none;
+  }
+
+  form{
+    /* background-color: black; */
+    /* color: white; */
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;   
+    margin: auto;
+
+  }
+  input{
+    /* background-color: black; */
+    color: white;
+  }
