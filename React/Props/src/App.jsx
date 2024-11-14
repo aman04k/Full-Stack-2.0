@@ -1,14 +1,16 @@
 import { useState } from 'react'
 
 import './App.css'
-import Event from './Events/Event'
+import Form from './components/Form'
+import Blogs from './components/Blogs'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     <Event />
+      <Blogs />
+      <Form />
     </>
   )
 }

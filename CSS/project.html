@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <style>
+        /* Basic cart styles */
+        .cart-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .remove-btn {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 5px;
+            cursor: pointer;
+        }
+        #total-price {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Shopping Cart</h1>
+
+    <div id="cart-items">
+        <!-- Cart items will appear here -->
+    </div>
+
+    <h2 id="total-price">Total: Rs. 0.00</h2>
+
+    <button onclick="checkout()">Check Out</button>
+
+    <script src="project.js"></script>
+</body>
+</html>
