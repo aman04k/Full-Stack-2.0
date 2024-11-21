@@ -13,6 +13,7 @@ function App() {
     <>
       <Provider store={store} >
        <Counter/>
+       
       </Provider>
     </>
   )

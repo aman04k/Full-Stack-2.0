@@ -1,21 +1,21 @@
-import React from 'react';
-import { useSelector, useDispatch } from 'react-redux'; // Hooks for Redux
-// import { increment, decrement } from './redux/actions'; // Import Actions
-import { increment, decrement } from './redux/actions';
+import React from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { increaseByValue } from './redux/counterReducer'
 
+function Counter() {
+    const count = useSelector(state=> state.counterReducer.counter)
+    const dispatch = useDispatch()
+    console.log(count)
+  return (
+    <div>
+      <h3>Update Value {count}</h3>
+      <button onClick={()=>dispatch({type:'INCREMENT'})}>Increment</button>
+      <button onClick={()=>dispatch({type:'DECREMENT'})}>Increment</button>
+      <button onClick={()=>dispatch({type:'INCREMENTBYVALUE',payload:40})}>Increment by 40</button>
+      <button onClick={()=>dispatch(increaseByValue(5))}>Increment by 5</button>
 
-const Counter = () => {
-    const count = useSelector((state) => state.count); // Access state
-    const dispatch = useDispatch(); // Dispatch actions
+    </div>
+  )
+}
 
-    return (
-        <div style={{ textAlign: 'center', marginTop: '50px' }}>
-            <h1>Redux Counter</h1>
-            <h2>Count: {count}</h2>
-            <button onClick={() => dispatch(increment())}>+ Increment</button>
-            <button onClick={() => dispatch(decrement())}>- Decrement</button>
-        </div>
-    );
-};
-
-export default Counter;
+export default Counter

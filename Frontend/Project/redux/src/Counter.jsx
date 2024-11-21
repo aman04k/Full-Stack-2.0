@@ -9,7 +9,7 @@ function Counter() {
   return (
     <div>
         <button onClick={()=>dispatch({type:'INCREMENT'})}>increase</button>
-      {count}
+      <h1>Count Value  {count} </h1>
       <button onClick={()=>dispatch({type:'DECREMENT'})} >decrease</button><br />
       <button onClick={()=>dispatch({type:'INCREASEBYVALUE',payload:45})}>increase 5</button>
       <button onClick={()=>dispatch(increseByValue(40))}>increseByValue</button>
