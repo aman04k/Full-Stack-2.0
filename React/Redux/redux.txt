@@ -1,0 +1,20 @@
+
+
+1. Redux Kya Hai?
+Redux ek state management library hai jo React apps ke liye kaam aata hai. Agar multiple components ke beech data share karna ho, to Redux use hota hai.
+
+Think of Redux as:
+
+1. Store: Ek badi state ki almari jahan saara data hota hai.
+2. Actions: Data ko update karne ke instructions (kya karna hai).
+3. Reducers: Instructions ko implement karne wale function (kaise karna hai).
+
+
+
+2. Redux Ka Basic Flow (3 Steps)
+State Store: Ek centralized "store" hota hai jahan saara state/data hota hai.
+Action: State ko update karne ke liye ek "action" bheja jata hai.
+Reducer: Action ko handle karke state ko update karta hai aur nayi state store mein bhejta hai.
+
+
+Component -> Action -> Reducer -> Store -> New State -> UI Updates
